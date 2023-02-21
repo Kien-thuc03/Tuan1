@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.bai2 {
+    width: 50%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 16px;
+    text-align: center;
+}
+
+.bai2 p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bai3 p {
+    margin-top: 25px;
+    width: 70%;
+    box-shadow: 0 0 12px #0a0a0a;
+}
+
+.bai3_21 {
+    width: 80%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 16px;
+    text-align: left;
+}
+
+.bai3_21 p {
+    width: 200px;
+    margin-left: 0%;
+}
+
+.bai3_22 {
+    width: 80%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 16px;
+    text-align: center;
+}
+
+.bai3_22 p {
+    width: 200px;
+}
+
+.bai3_23 {
+    width: 80%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 16px;
+    text-align: right;
+}
+
+.bai3_23 p {
+    width: 200px;
+    margin-right: 0%;
+}
+
+.bai4 {
+    width: 25%;
+    height: auto;
+    box-shadow: 0 0 12px #0a0a0a;
+}
+
+.bai4>ol {
+    list-style: upper-roman;
+}
+
+.bai4 .cz ol {
+    list-style-type: lower-roman;
+}
+
+.bai4_2 {
+    width: 45%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 16px 0 16px 0;
+}
