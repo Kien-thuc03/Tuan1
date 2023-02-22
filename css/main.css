@@ -80,3 +80,70 @@
     background-color: #ffd078;
     padding: 16px 0 16px 0;
 }
+
+.bai6 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bai6 th,
+td {
+    border: 3px ridge #ceb6b2;
+    padding: 10px;
+    text-align: center;
+}
+
+.bai6 {
+    width: 45%;
+    height: auto;
+    background-color: #dfd8ca;
+    padding: 16px;
+}
+
+.bai6_B table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bai6_B td {
+    border: 3px ridge #ceb6b2;
+    padding: 6.47px;
+    text-align: left;
+}
+
+.bai6_B th {
+    border: 3px ridge #ceb6b2;
+    padding: 6.47px;
+    text-align: center;
+}
+
+.bai6_B u {
+    font-weight: 500;
+    color: red;
+}
+
+.bai6_B {
+    width: 45%;
+    height: auto;
+    background-color: #ffd078;
+    padding: 5px;
+}
+
+.bai6_C table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bai6_C td {
+    border: 3px double #e04de0;
+    padding: 6.47px;
+    text-align: center;
+    background-color: #ffddff;
+}
+
+.bai6_C th {
+    border: 3px double #e04de0;
+    padding: 6.47px;
+    text-align: center;
+    background-color: #ffa0ff;
+}
