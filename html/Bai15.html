@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai15</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="bai15">
+        <form action="">
+            <h1>Contact Us</h1>
+            <fieldset>
+                <legend>Your massage:</legend>
+                <table>
+                    <tr>
+                        <td><label for="mailto">To</label></td>
+                        <td><input type="text" name="mailto" id="mailto" value="Example Cafe" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Your mail</label></td>
+                        <td><input type="text" name="mail" id="mail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="massage">Massage</label></td>
+                        <td><textarea name="massage" id="massage" rows="10" cols="40"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td><label for="how">How did you hear of us</label></td>
+                        <td><select><option>Google</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="newsletter">Newsletter</label></td>
+                        <td><input type="checkbox" name="newsletter" id="newletter">Ensure this box is checked if you would like to<br> receive email updates</td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <input type="submit" id="check" value="Send massage">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td><label for="first">First name:</label></td>
+                        <td><input type="text" id="first"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last">Last name:</label></td>
+                        <td><input type="text" id="last"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Competition Question</legend>
+                <table>
+                    <tr>
+                        How tall is the Eiffel Tower in Paris, France?<br>
+                        <input type="radio" id="how">584 ft<br>
+                        <input type="radio" id="how">784 ft<br>
+                        <input type="radio" id="how">984 ft<br>
+                        <input type="radio" id="how">1184 ft<br>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <legend>Tiebreaker Question</legend>
+                        <td><label for="textarea">In 25 words or less, say why you would like to win $10.000:</label></td><br>
+                        <td><input type="textarea" id="textarea" rows="10" cols="40"></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

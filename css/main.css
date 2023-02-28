@@ -147,3 +147,51 @@ td {
     text-align: center;
     background-color: #ffa0ff;
 }
+
+.bai7 pre {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bai7 td {
+    border: 3px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.bai9 tr {
+    background-color: #ffff66;
+}
+
+.bai9 table,
+.bai9 th,
+.bai9 td {
+    border: 2px solid #ff9c00;
+}
+
+.bai12 {
+    width: 100%;
+    height: auto;
+    background-color: #78fdff;
+    padding: 16px;
+    text-align: center;
+}
+
+.bai14 {
+    width: 980px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.Ch14_1,
+.Ch14_2,
+.Ch14_3,
+.Ch14_4 {
+    margin-left: 100px;
+}
+
+.bai15 th,
+.bai15 td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
