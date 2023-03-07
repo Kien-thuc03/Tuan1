@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17</title>
+</head>
+
+<body bgcolor="bisque">
+    <h1>Survey Form</h1>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete<br> some or all of the following survey for our marketing department. Answering any question is<br> optional, and all information will be kept strictly
+        confidential. Thank you very much for your time!
+    </p>
+    <ol type="1" start="1">
+        <li>What is your name?</li>
+        <input type="text" name="ten" id="ten">
+        <li>What is your date of birth?</li>
+        Month:
+        <input list="month" size="9px">
+        <datalist id="month">
+            <option> January</option>
+            <option> February</option>
+            <option> March</option>
+            <option> April</option>
+            <option> May</option>
+            <option> June</option>
+            <option> July</option>
+            <option> August</option>
+            <option> September</option>
+            <option> October</option>
+            <option> November</option>
+            <option>December</option>
+        </datalist> Date:
+        <input list="date" size=2px>
+        <datalist id="date">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </datalist> Year:
+        <input list="year" size="2px">
+        <datalist id="year">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </datalist>
+        <li>What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</li>
+        <textarea name="textarea" id="textarea" rows="5" cols="50" wrap="">
+Number/P.O. Box/Route:
+Street/Avenue/Road:
+City:
+State/Zip:
+        </textarea>
+        <li>What is your email address?</li>
+        <input type="email" name="email" id="email">
+        <li>Have you viewed our online product catalog?</li>
+        <input type="radio" id="r1">Yes
+        <input type="radio" id="r2">No
+        <li>If so, what product(s), besides the one you are ordering, might you be interested in purchasing<br> in the future? (Check all that apply)</li>
+        <input type="checkbox" id="c1">VCR<br>
+        <input type="checkbox" id="c2">Big Screen TV<br>
+        <input type="checkbox" id="c3">Audio Equipment<br>
+        <input type="checkbox" id="c4">Video Equipment<br>
+        <input type="checkbox" id="c5">Camere Equipment<br>
+        <input type="checkbox" id="c6">Orther
+        <input type="text" value="Please List:">
+        <li>Do you have any question, comments or suggestions before proceeding to the Order Form</li>
+        <textarea name="textarea" id="textarea" rows="5" cols="50" wrap="">
+Your Input:           
+        </textarea>
+        <div class="con">
+            <input type="submit" id="s1" value="Send Form">
+            <input type="reset" id="s2" value="Clear Form">
+        </div>
+    </ol>
+    <br>
+    <br>
+    <br> Browser:
+    <input type="text" id="browser"><br>
+    <br> User name:
+    <input type="text" id="user name"><br>
+    <br> Ecryption:
+    <input list="select">
+    <datalist id="select">
+      <option>2048 (High Grade)</option>
+    </datalist><br>
+    <br>
+    <div>
+        0<input type="range" min="0" max="100" value="10">100
+    </div><br>
+    <input type="text" value="50"><br>
+    <br> Birthday:
+    <input type="datetime" id="birthday" placeholder="dd/mm/yyyy"><br><br> Select your favourite color:
+    <input type="color"><br><br> Birthday (month and year):
+    <input type="month"><br><br> Select a week:
+    <input type="week"><br><br> Select a time:
+    <input type="time"><br><br> E-mail:
+    <input type="email"><br><br> Search Google:
+    <input type="text"><br><br> Telephone:
+    <input type="tel"><br><br> Add your homepage:
+    <input type="text"><br><br>
+    <input type="submit" value="Submit"><br><br>
+    <B>Note: </B>The datalist tag is not supported in Safari or IE9 (and earlier)
+
+</body>
+
+</html>
